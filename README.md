@@ -32,7 +32,7 @@ O objetivo então pode ser mais satisfatoriamente descrito: Se deseja a classe $
 
 $$\hat{y} = arg\max_{y_{i}}\mathbb{P}(x_{j} \mid y_{i}, x_{1}, x_{2}, ...., x_{j-1}, x_{j+1}, x_{n}) = \frac{\mathbb{P}(y_{i})\prod_{i=1}^{n}\mathbb{P}(x_{j} \mid y_{i})}{\mathbb{P}(x_{1}, x_{2}, ...., x_{n})}$$
 
-Note entretanto que, fixado o vetor de atributos $x$, $\mathbb{P}(x_{1}, x_{2}, ...., x_{n})$ é constante e como queremos o **argumento** mínimo da função, esta parte pode ser descartada resultando na forma final
+Note entretanto que, fixado o vetor de atributos $x$, $\mathbb{P}(x_{1}, x_{2}, ...., x_{n})$ é constante e como queremos o **argumento** máximo da função, esta parte pode ser descartada resultando na forma final
 
 $$\hat{y} = arg\max_{y_{i}}\mathbb{P}(x_{j} \mid y_{i}, x_{1}, x_{2}, ...., x_{j-1}, x_{j+1}, x_{n}) = \mathbb{P}(y_{i})\prod_{i=1}^{n}\mathbb{P}(x_{j} \mid y_{i})$$
 
